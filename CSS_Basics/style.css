@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+body{
+    background-color: #BDF3F9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+}
+
+h1{
+    color: rgb(115, 104, 6);
+}
+
+h3{
+    background-color: aquamarine;
+    color: brown;
+    padding: 1%;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.8em;
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: hsl(250, 90%, 23%);
+    font-family: 'Yellowtail', Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+#second-p{
+    color: hsl(305, 90%, 20%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.2em;
+}
+
+#box-model{
+    background-color: lightgray;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    /* margin: 20px; */
+
+    /* margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px; */
+
+    /* margin: 5px 10px 5px 10px; */
+
+    margin: 5px 10px;
+}
+
+.categories{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories a:hover{
+    color: red;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 0.2em;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: darkblue;
+    color: white;
+}
+
+.button:hover{
+    background: darkmagenta;
+    cursor: pointer;
+}
+
+.block{
+    float: left;
+    width: 33.33%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#main__block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+#side__bar{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url('./images/large-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position-box h1{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+
+.position-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+}
+
+.fixed-button{
+    position: fixed;
+    top: 20px;
+}
