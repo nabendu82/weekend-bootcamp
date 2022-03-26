@@ -10,7 +10,10 @@ const connection_url = 'mongodb+srv://admin:admin@cluster0.dkdkj.mongodb.net/tin
 
 //Middleware
 app.use(express.json());
-app.use(Cors());
+app.use(Cors({
+    origin: 'https://tinder-weekend-mern.web.app',  //react's address
+    credentials: true
+}));
 
 //DB Config
 mongoose.connect(connection_url);
